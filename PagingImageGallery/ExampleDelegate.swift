@@ -10,10 +10,12 @@ import Foundation
 
 public class ExampleDelegate : ImageGalleryViewControllerDelegate {
     
+    
     public var dziFiles: [Dzifile] = [
         Dzifile(tileSize: 254, overlap: 1, format: "jpg", tileSourceUrl: "http://localhost:8888/image_files/Curiosity/Curiosity_files", width: 12909, height: 7719),
         Dzifile(tileSize: 254, overlap: 1, format: "jpg", tileSourceUrl: "http://localhost:8888/image_files/M51/M51_files", width: 11477, height: 7965),
         Dzifile(tileSize: 254, overlap: 1, format: "jpg", tileSourceUrl: "http://localhost:8888/image_files/PillarsOfCreation/PillarsOfCreation_files", width: 6780, height: 7071)]
+    
     
     public var captions:[String?] = [
         "Hi, I'm Curiosity, and I like taking selfies",
